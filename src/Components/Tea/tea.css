@@ -1,0 +1,116 @@
+div.tea {
+  width: 100%;
+  margin-bottom: 60px;
+  > div {
+    width: 100%;
+    position: relative;
+    > div.tea-image {
+      width: 100%;
+      padding-bottom: 20px;
+      background-color: #e9d69f;
+      > img {
+        width: 100%;
+        object-fit: cover;
+        vertical-align: middle;
+        display: inline-block;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+      }
+    }
+    > div.tea-box {
+      width: 300px;
+      height: auto;
+      position: absolute;
+      left: 868.6px;
+      text-align: right;
+      font-family: var(--font-family);
+      font-size: 22px;
+      font-weight: 100;
+      line-height: 44px;
+      letter-spacing: 0px;
+      background-color: var(--e-global-color-primary);
+      bottom: 0px;
+      > div.tea-heading {
+        padding-top: 5px;
+        padding-right: 20px;
+        font-size: 29px;
+        color: #ffffff;
+        box-sizing: border-box;
+      }
+      > div.tea-heading-two {
+        padding-right: 20px;
+        font-size: 16px;
+        color: #ffffff;
+        font-style: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-weight: 400;
+        box-sizing: border-box;
+      }
+    }
+  }
+  > div.tea-text-wrapper {
+    width: 48%;
+    margin: 0 auto;
+    > div {
+      width: 100%;
+      > div.tea-text-heading {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        > h2 {
+          color: var(--e-global-color-primary);
+          font-family: var(--font-family);
+          font-size: 20px;
+          font-weight: 700;
+          box-sizing: border-box;
+        }
+      }
+      > div.tea-text {
+        width: 100%;
+        > p {
+          margin: 0 0 20px;
+          text-align: justify;
+          color: #818588;
+          font-family: var(--font-family);
+          font-size: 15px;
+          font-weight: normal;
+          line-height: 36px;
+          > span {
+            font-weight: bold;
+            color: #ff0000;
+          }
+        }
+      }
+      > div.tea-btns {
+        width: 100%;
+        > a.btn-information-more {
+          display: block;
+          font-family: var(--font-family);
+          text-decoration: none;
+          fill: #7c7d7e;
+          color: #7c7d7e;
+          background-color: #ffffff;
+          border-style: solid;
+          border-width: 1px 1px 1px 1px;
+          border-color: #c8c8c8;
+          border-radius: 8px 8px 8px 8px;
+          width: auto;
+          box-shadow: none;
+          display: inline-block;
+          line-height: 1;
+          font-size: 15px;
+          padding: 12px 24px;
+          box-sizing: border-box;
+          text-align: center;
+          transition: all 0.3s;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

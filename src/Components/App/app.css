@@ -1,0 +1,6 @@
+div.divider-border {
+  border-top: var(--divider-border-width) var(--divider-border-style)
+    var(--divider-color);
+  width: 100%;
+  margin: 25px 0;
+}

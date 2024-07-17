@@ -1,0 +1,44 @@
+div.Widget {
+  width: 100%;
+  margin-bottom: 50px;
+  > div.Widget-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    > div {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0 35px;
+      > div.box {
+        width: 186px;
+        height: 186px;
+        background-color: green;
+        > div {
+          width: inherit;
+          height: inherit;
+        }
+        > div.text {
+          margin: 10px auto;
+          width: 100%;
+          text-align: center;
+          > p {
+            color: var(--e-global-color-secondary);
+            font-family: var(--font-family);
+            font-size: 16px;
+            font-weight: 100;
+            line-height: 21px;
+            -webkit-text-stroke-color: #000;
+            stroke: #000;
+          }
+        }
+        > div.divider-border {
+          border-top: var(--divider-border-width) var(--divider-border-style)
+            var(--divider-color);
+          width: 100%;
+          margin: -165px 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,178 @@
+section.social {
+  width: 100%;
+  min-height: 600px;
+  background-color: #105153;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-bottom: 30px;
+}
+section.social > div.social-wrapper {
+  min-height: 600px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+section.social > div.social-wrapper > div {
+  min-height: 600px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+section.social > div.social-wrapper > div > div.social-title {
+}
+section.social > div.social-wrapper > div > div.social-title > h2 {
+  color: #d5ece1;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 35px;
+}
+section.social > div.social-wrapper > div > div.divider-separator {
+  width: 100%;
+  border-top: var(--divider-border-width) var(--divider-border-style)
+    var(--divider-color);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.social > div.social-wrapper > div > div.social-title-en {
+  width: 100%;
+  margin: -2.2em 0em 0em 0em;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s,
+    transform var(--e-transform-transition-duration, 0.4s);
+  margin-top: 35px;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
+section.social > div.social-wrapper > div > div.social-title-en > span.gol {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-weight: 400;
+  color: #009da2;
+  font-size: 30px;
+}
+section.social > div.social-wrapper > div > div.social-title-en > span.soc {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #00d8df;
+  font-size: 20px;
+}
+section.social > div.social-wrapper > div > div.hospital {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+section.social > div.social-wrapper > div > div.hospital > h2 {
+  color: rgb(188, 190, 192);
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  text-align: center;
+  white-space: normal;
+}
+div.social-cirme {
+  width: 100%;
+  min-height: 20px;
+  align-items: center;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  background-color: #e9d69f;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+section.social-context {
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px;
+}
+section.social-context > div.social-image {
+  position: absolute;
+  right: 38%;
+  top: -215px;
+  z-index: 1;
+  text-align: center;
+}
+section.social-context > div.social-image > img {
+  box-shadow: -3px 3px 7px 0px rgba(0, 0, 0, 0.2);
+  vertical-align: middle;
+  display: inline-block;
+  height: auto;
+  width: 395px;
+  height: 344px;
+  object-fit: cover;
+  z-index: 1;
+}
+div.social-text {
+  width: 100%;
+  margin-top: 200px;
+}
+div.social-text > div {
+  width: 55%;
+  margin: 0 auto;
+}
+div.social-text > div > h2 {
+  color: var(--e-global-color-primary);
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+div.social-text > div > p {
+  line-height: 35px;
+  color: rgb(129, 133, 136);
+  text-align: justify;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  margin-bottom: 10px;
+}
+div.social-text > div > p > strong {
+  color: rgb(255, 0, 0);
+}
+div.social-text > div > p > span {
+}
+div.social-text > div > a {
+  display: block;
+  font-family: var(--font-family);
+  text-decoration: none;
+  fill: #7c7d7e;
+  color: #7c7d7e;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #c8c8c8;
+  border-radius: 8px 8px 8px 8px;
+  width: auto;
+  box-shadow: none;
+  display: inline-block;
+  line-height: 1;
+  font-size: 15px;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: all 0.3s;
+}
+div.social-text > div > a:hover {
+  color: #ffffff !important;
+  background-color: var(--e-global-color-primary) !important;
+}
