@@ -8,7 +8,7 @@ div.main-lottery {
 div.lottery {
   width: 80%;
   min-height: 450px;
-  margin: 0 auto;
+  margin: 97px auto;
 
   > div.lottery-wrapper {
     width: 100%;

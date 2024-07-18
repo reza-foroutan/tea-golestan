@@ -113,15 +113,11 @@ function Mag() {
             <article>
               <a href="post_thumbnail_link" target="_blank">
                 <div className="post_thumbnail">
-                  <iframe
-                    width="100%"
-                    height="100%"
-                    title="غذای خوشمزه و سریع با نودل"
-                    allowfullscreen="true"
-                    webkitallowfullscreen="true"
-                    mozallowfullscreen="true"
-                    src="https://www.aparat.com/video/video/embed/videohash/cQ0yF/vt/frame"
-                  ></iframe>
+                  <img
+                    src="../../../public/images/recipe-pic2.jpg"
+                    alt="ماکارونی با سبزیجات
+"
+                  />
                 </div>
               </a>
               <div className="post_text">
