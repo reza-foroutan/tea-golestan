@@ -5,6 +5,13 @@ section.menu {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  top: 0px;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  z-index: 1000;
 }
 section.menu > div.menu_container {
   width: 70%;

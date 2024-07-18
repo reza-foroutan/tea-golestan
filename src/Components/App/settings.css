@@ -45,6 +45,9 @@ body::-webkit-scrollbar-thumb {
   --divider-border-style: solid;
   --divider-color: #07787c;
   --divider-border-width: 1px;
+  --divider-border-style: solid;
+  --divider-color: #828991;
+  --divider-border-width: 1px;
 }
 
 body {
