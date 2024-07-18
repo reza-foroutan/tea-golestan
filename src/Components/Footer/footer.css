@@ -48,6 +48,19 @@ footer
   > div
   > div
   > a
+  > div.icon-facebook:nth-of-type(1):hover {
+  background: url("../../../public/images/icon5-1-1.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 55px;
+  width: 55px;
+}
+footer
+  > div.footer-width-fixer
+  > section.footer-socail
+  > div
+  > div
+  > a
   > div.icon-linkdin {
   background: url("../../../public/images/icon4-1.png");
   background-repeat: no-repeat;
@@ -55,6 +68,7 @@ footer
   height: 55px;
   width: 55px;
 }
+
 footer
   > div.footer-width-fixer
   > section.footer-socail
