@@ -14,7 +14,7 @@ const Menu = () => {
     <>
       <section className="menu">
         <div className="menu_container">
-          <nav>
+          <nav className="">
             <div className="">
               <div className="nav-logo">
                 <a href="#">
