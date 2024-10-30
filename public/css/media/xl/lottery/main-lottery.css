@@ -1,0 +1,148 @@
+.lottery {
+  width: 100%;
+  height: 457px;
+  position: absolute;
+  background-color: transparent;
+  background-image: linear-gradient(190deg, #fbfbfb 0%, #d2d2d2 100%);
+  transition: 300ms;
+  z-index: -2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  .lottery_wrapper {
+    width: 65%;
+    height: 457px;
+    min-height: 457px;
+    background-color: transparent;
+    background-image: linear-gradient(190deg, #fbfbfb 0%, #d2d2d2 100%);
+    position: relative;
+    .lottery__center {
+      width: 100%;
+      height: inherit;
+      padding: 10px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      padding: 80px 20px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      .lottery__text {
+        width: 50%;
+        height: inherit;
+        .lottery__text__wrapper {
+          width: 100%;
+          height: inherit;
+          .lottery__text__heading__first {
+            width: 100%;
+            height: 40px;
+            margin-bottom: 15px;
+            & h2 {
+              color: #ff0000;
+              font-family: var(--font-family);
+              font-size: 30px;
+              font-weight: 300;
+              padding: 0;
+              margin: 0;
+              line-height: 1;
+              box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              -webkit-box-sizing: border-box;
+            }
+          }
+          .lottery__text__heading__second {
+            width: 100%;
+            height: 40px;
+            & h2 {
+              color: #58595b;
+              font-family: var(--font-family);
+              font-size: 20px;
+              font-weight: 300;
+              padding: 0;
+              margin: 0;
+              line-height: 1;
+              box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              -webkit-box-sizing: border-box;
+              margin-bottom: 40px;
+            }
+          }
+          .lottery__text__paragraph {
+            width: 100%;
+            height: 162px;
+            margin-bottom: 21px;
+            & h2 {
+              color: #898989;
+              padding: 0;
+              margin: 0;
+              font-family: var(--font-family);
+              font-size: 16px;
+              font-weight: 100;
+              font-style: normal;
+              line-height: 33px;
+            }
+          }
+          .lottery__button__more {
+            width: 100%;
+            height: 41px;
+            & a {
+              width: auto;
+              box-shadow: none;
+              text-decoration: none;
+              display: inline-block;
+              line-height: 1;
+              font-size: 15px;
+              padding: 12px 24px;
+              text-align: center;
+              transition: all 0.3s;
+              box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              -webkit-box-sizing: border-box;
+              font-family: var(--font-family);
+              text-decoration: none;
+              fill: #7c7d7e;
+              color: #7c7d7e;
+              background-color: #ffffff;
+              border-style: solid;
+              border-width: 1px 1px 1px 1px;
+              border-color: #c8c8c8;
+              border-radius: 8px 8px 8px 8px;
+              &:hover {
+                background-color: #ff0000;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+      .lottery__image {
+        width: 50%;
+        height: inherit;
+        padding-right: 90px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        .lottery__image__wrapper {
+          width: 100%;
+          height: inherit;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-flow: row wrap;
+          margin-top: -44px;
+          & img {
+            vertical-align: middle;
+            display: inline-block;
+            width: 350px;
+            height: 400px;
+          }
+        }
+      }
+    }
+  }
+}
