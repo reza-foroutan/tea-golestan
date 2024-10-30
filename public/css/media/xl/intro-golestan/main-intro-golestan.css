@@ -1,0 +1,132 @@
+.intro__golestan {
+  width: 100%;
+  background-color: var(--color-neutral-000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  .intro__golestan__wrapper {
+    width: 50%;
+    .intro__golestan__wrapper__center {
+      width: 100%;
+      height: inherit;
+      .intro__golestan__text {
+        width: 100%;
+        margin-top: 50px;
+        padding-right: 50px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        .text__intro__heading {
+          width: 100%;
+          height: 40px;
+          & h2 {
+            color: var(--e-global-color-primary);
+            font-family: var(--font-family);
+            font-size: 20px;
+            font-weight: 700;
+          }
+        }
+        .intro__golestan__text__text {
+          width: 100%;
+          & h2 {
+            color: var(--e-global-color-text);
+            font-family: var(--font-family);
+            font-size: 16px;
+            font-weight: 100;
+            line-height: 36px;
+            text-align: justify;
+            margin: 20px 0;
+            & span {
+              font-variant-ligatures: normal;
+              font-variant-caps: normal;
+              font-size: medium;
+              font-style: normal;
+              font-weight: 400;
+              color: rgb(255, 0, 0);
+              white-space: normal;
+            }
+          }
+        }
+      }
+      .intro__golestan__text__products {
+        width: 100%;
+        .intro__golestan__text__products__heading {
+          width: 100%;
+          height: 40px;
+          margin-top: 50px;
+          padding-right: 50px;
+          box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          .intro__golestan__text__products__heading__text {
+            color: var(--e-global-color-primary);
+            font-family: var(--font-family);
+            font-size: 20px;
+            font-weight: 700;
+          }
+        }
+        .intro__golestan__text__products__text {
+          width: 100%;
+          margin-top: 50px;
+          padding-right: 50px;
+          box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          margin-bottom: 50px;
+          & p {
+            color: var(--e-global-color-text);
+            font-family: var(--font-family);
+            font-size: 16px;
+            font-weight: 100;
+            line-height: 35px;
+            & span {
+              font-variant-ligatures: normal;
+              font-variant-caps: normal;
+              font-size: medium;
+              font-style: normal;
+              font-weight: 400;
+              color: rgb(255, 0, 0);
+              white-space: normal;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.intro__golestan__catalog {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  column-gap: 15px;
+  .intro__golestan__catalog__items {
+    width: 20%;
+
+    .intro__golestan__catalog__items__wrapper {
+      width: 100%;
+      border-bottom: 1px solid #dbdbdb;
+      & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      & p {
+        color: var(--e-global-color-secondary);
+        font-family: var(--font-family);
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 21px;
+        -webkit-text-stroke-color: #000;
+        stroke: #000;
+        text-align: center;
+        padding: 15px 0;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+      }
+    }
+  }
+}
