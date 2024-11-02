@@ -1,8 +1,8 @@
 @import url("./media/settings/fontiran.css");
 @import url("./media/settings/settings.css");
-@import url("./media/xs/main-xs.css") screen and (min-width: 0px);
-@import url("./media/sm/main-sm.css") screen and (min-width: 576px);
-@import url("./media/md/main-md.css") screen and (min-width: 768px);
-@import url("./media/lg/main-lg.css") screen and (min-width: 992px);
+/* @import url("./media/xs/main-xs.css") screen and (min-width: 0px); */
+/* @import url("./media/sm/main-sm.css") screen and (min-width: 576px); */
+/* @import url("./media/md/main-md.css") screen and (min-width: 768px); */
+/* @import url("./media/lg/main-lg.css") screen and (min-width: 992px); */
 @import url("./media/xl/main-xl.css") screen and (min-width: 1200px);
-@import url("./media/xxl/main-xxl.css") screen and (min-width: 1400px);
+/* @import url("./media/xxl/main-xxl.css") screen and (min-width: 1400px); */

@@ -29,7 +29,7 @@ html {
 }
 
 :root {
-  --font-family: "IRANSans", sans-serif;
+  --font-family-IRANSansLight: "IRANSansLight", sans-serif;
   --window-inner-height: 331px;
   --color-neutral-000: #fff;
   --divider-border-style: solid;
@@ -42,7 +42,7 @@ html {
 }
 body {
   min-height: var(--window-inner-height);
-  font-family: var(--font-family);
+  font-family: var(--font-family-IRANSansLight);
   background-color: var(--color-neutral-000);
   overflow: auto;
   font-size: 15px;

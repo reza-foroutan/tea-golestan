@@ -1,0 +1,120 @@
+.products__golestan {
+  width: 100%;
+  margin-bottom: 75px;
+  .products__golestan__bg {
+    width: 100%;
+    height: 520px;
+    background-color: #e9d69f;
+    position: relative;
+    .products__golestan__bg__image {
+      width: 100%;
+      height: 500px;
+      & img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+      }
+    }
+    .products__golestan__box {
+      width: 300px;
+      padding: 0px 17px 4px 114px;
+      background-color: #ed1c24;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      position: absolute;
+      bottom: 0px;
+      z-index: 2;
+      right: 20%;
+      .products__golestan__box__content {
+        .products__golestan__box__content__title {
+          padding-top: 5px;
+          padding-right: 20px;
+          font-size: 29px;
+          color: #ffffff;
+          box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          font-family: var(--font-family-IRANSansLight);
+        }
+        .products__golestan__box__content__title__heading {
+          padding-right: 20px;
+          box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          font-size: 16px;
+          color: #ffffff;
+          font-style: normal;
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-weight: 400;
+          font-family: var(--font-family-IRANSansLight);
+        }
+      }
+    }
+  }
+  .products__golestan__desc {
+    width: 50%;
+    margin: 60px auto;
+    .products__golestan__desc__heading {
+      width: 100%;
+      height: 40px;
+      margin-bottom: 61px;
+      & h2 {
+        width: 100%;
+        height: inherit;
+        color: var(--e-global-color-primary);
+        font-family: var(--font-family-IRANSansLight);
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+    .products__golestan__desc__text {
+      width: 100%;
+      & p {
+        text-align: justify;
+        color: #818588;
+        font-family: var(--font-family-IRANSansLight);
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 36px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .products__golestan__btn {
+    margin: 0 auto;
+    width: 50%;
+    .products__golestan__btn__wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-flow: row wrap;
+      column-gap: 20px;
+      & a {
+        display: block;
+        font-family: "IRANSansLight", Sans-serif;
+        text-decoration: none;
+        fill: var(--e-global-color-secondary);
+        color: var(--e-global-color-secondary);
+        background-color: #ffffff;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #c8c8c8;
+        border-radius: 8px 8px 8px 8px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        width: 148px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        &:hover {
+          background-color: #ff0000;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

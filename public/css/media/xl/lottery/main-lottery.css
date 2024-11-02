@@ -1,28 +1,18 @@
 .lottery {
   width: 100%;
-  height: 457px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #e9e9e9;
+  margin-top: 0px;
   .lottery__wrapper {
-    width: 65%;
-    height: 457px;
-    position: relative;
+    width: 70%;
+    margin: 0 auto;
     .lottery__wrapper__center {
       width: 100%;
       height: inherit;
-      position: absolute;
-      padding: 25px;
+      padding: 80px 20px;
       box-sizing: border-box;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: row wrap;
-      margin-top: 35px;
       .lottery__text {
         width: 50%;
         height: inherit;
@@ -35,7 +25,7 @@
             margin-bottom: 15px;
             & h2 {
               color: #ff0000;
-              font-family: var(--font-family);
+              font-family: var(--font-family-IRANSansLight);
               font-size: 30px;
               font-weight: 300;
               padding: 0;
@@ -51,7 +41,7 @@
             height: 40px;
             & h2 {
               color: #58595b;
-              font-family: var(--font-family);
+              font-family: var(--font-family-IRANSansLight);
               font-size: 20px;
               font-weight: 300;
               padding: 0;
@@ -71,7 +61,7 @@
               color: #898989;
               padding: 0;
               margin: 0;
-              font-family: var(--font-family);
+              font-family: var(--font-family-IRANSansLight);
               font-size: 16px;
               font-weight: 100;
               font-style: normal;
@@ -94,7 +84,7 @@
               box-sizing: border-box;
               -moz-box-sizing: border-box;
               -webkit-box-sizing: border-box;
-              font-family: var(--font-family);
+              font-family: var(--font-family-IRANSansLight);
               text-decoration: none;
               fill: #7c7d7e;
               color: #7c7d7e;

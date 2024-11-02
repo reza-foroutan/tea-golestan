@@ -1,90 +1,86 @@
 .main__header {
   width: 100%;
   height: 100px;
-  position: relative;
-  & header {
+  .mian__header__wrapper {
     width: 100%;
     height: 100px;
-    position: relative;
-    .header__wrapper {
+    background-color: #282828;
+    background-image: url("../../../../images/header-back-1.png");
+    opacity: 1;
+    & header {
       width: 100%;
       height: 100px;
-      background-color: #282828;
-      background-image: url("../../../../images/header-back-1.png");
-      opacity: 1;
       display: flex;
-      flex-flow: row;
+      flex-flow: row wrap;
       justify-content: center;
       align-items: center;
-      .header__wrapper__center {
-        width: 65%;
+      .header__wrapper {
+        width: 75%;
         height: 40px;
         display: flex;
-        flex-flow: row;
+        flex-flow: row wrap;
         justify-content: center;
         align-items: center;
-        .header__wrapper__center__wrapper {
-          width: 100%;
+        .header__logo {
+          width: 20%;
           height: 40px;
-          display: flex;
-          flex-flow: row;
-          justify-content: center;
-          align-items: center;
-          position: relative;
-          .header__top__logo {
-            width: 20%;
+          .header__logo__wrapper {
+            width: 100%;
             height: 40px;
-            .logo__site {
-              width: 20%;
-              height: 40px;
-              position: absolute;
-              top: 15px;
-              z-index: 1;
-              .site__logo__link {
-                width: 100%;
-                height: inherit;
-                display: block;
-              }
-            }
-          }
-          .header__top__menu {
-            width: 90%;
-            height: 40px;
-            padding-right: 35px;
+            margin: 0em 0em -1.5em -7em;
+            padding: 1.3em 0em 0em 0em;
             box-sizing: border-box;
             -moz-box-sizing: border-box;
             -webkit-box-sizing: border-box;
-            .header__top__menu__wrapper {
+            .header__logo__link {
+              display: block;
               width: 100%;
               height: 40px;
-              & nav {
+              .header__logo__link__wrapper {
                 width: 100%;
-                height: inherit;
+                height: 40px;
+              }
+            }
+          }
+        }
+        .header__nav {
+          width: 80%;
+          height: 40px;
+          .header__nav__wrapper {
+            width: 100%;
+            height: 40px;
+            & nav {
+              width: 100%;
+              height: 40px;
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              flex-flow: row wrap;
+              column-gap: 30px;
+              margin: 0em 0em -1.5em -7em;
+              padding: 1.3em 0em 0em 0em;
+              box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              -webkit-box-sizing: border-box;
+              & div {
                 display: flex;
-                flex-flow: row wrap;
-                justify-content: flex-start;
+                justify-content: center;
                 align-items: center;
-                column-gap: 19px;
-                padding: 15px 0;
-                box-sizing: border-box;
-                -moz-box-sizing: border-box;
-                -webkit-box-sizing: border-box;
-                & div {
-                  & a {
-                    color: #afb2b4;
-                    fill: #afb2b4;
-                    font-size: 16px;
-                    text-decoration: none;
-                    font-family: var(--font-family);
-                    border-left: 1px solid #afb2b4;
-                    padding-left: 10px;
-                    box-sizing: border-box;
-                    -moz-box-sizing: border-box;
-                    -webkit-box-sizing: border-box;
-                    transition: 300ms;
-                    &:hover {
-                      color: #fff;
-                    }
+                flex-flow: row wrap;
+                & a {
+                  color: #afb2b4;
+                  fill: #afb2b4;
+                  font-size: 16px;
+                  text-decoration: none;
+                  font-family: var(--font-family-IRANSansLight);
+                  border-left: 1px solid #afb2b4;
+                  padding-left: 10px;
+                  box-sizing: border-box;
+                  -moz-box-sizing: border-box;
+                  -webkit-box-sizing: border-box;
+                  transition: 300ms;
+                  &:hover {
+                    color: #fff;
                   }
                 }
               }
@@ -94,10 +90,10 @@
       }
     }
   }
-  .border__less {
-    border: unset !important;
-  }
-  .active__menu {
-    color: #fff !important;
-  }
+}
+.border__less {
+  border: unset !important;
+}
+.active__menu {
+  color: #fff !important;
 }
