@@ -1,0 +1,140 @@
+.mag__golestan {
+  width: 100%;
+  .mag__golestan__wrapper {
+    width: 70%;
+    margin: 0 auto;
+    .mag__golestan__wrapper__center {
+      width: 100%;
+      height: inherit;
+      padding: 80px 20px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      display: flex;
+      .mag__golestan__heading {
+        width: 100%;
+        height: 40px;
+        & p {
+          color: var(--e-global-color-secondary);
+          font-family: var(--font-family-IRANSansLight);
+          font-size: 15px;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+  .mag__golestan__content {
+    width: 100%;
+    height: 772px;
+    background-color: #cde4b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    .mag__golestan__content__wrapper {
+      width: 80%;
+      height: 602px;
+      .mag__golestan__content__wrapper__center {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        column-gap: 15px;
+        .mag__content {
+          width: 30%;
+          height: 602px;
+          border-radius: 0px;
+          padding: 0px 0px 0px 0px;
+          box-shadow: -3px 3px 7px 0px rgba(0, 0, 0, 0.2);
+          background-color: #ffffff;
+          box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          & article {
+            width: 100%;
+            height: inherit;
+            .mag__content__image {
+              width: 100%;
+              height: 312px;
+              .mag__content__image__link {
+                width: 100%;
+                height: 312px;
+                & img {
+                  width: 100%;
+                  height: 312px;
+                  object-fit: cover;
+                }
+              }
+            }
+            .mag__content__text {
+              width: 100%;
+              height: 281px;
+              padding: 35px 25px;
+              box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              -webkit-box-sizing: border-box;
+              .mag__content__text__heading {
+                width: 100%;
+                height: 40px;
+                margin-bottom: 20px;
+                .mag__content__text__heading__link {
+                  width: 100%;
+                  height: 40px;
+                  display: block;
+                  & h3 {
+                    color: var(--e-global-color-primary);
+                    font-family: var(--font-family-IRANSansLight);
+                    font-size: 20px;
+                    font-weight: 200;
+                    text-decoration: none;
+                  }
+                }
+              }
+              .mag__content__text__context {
+                width: 100%;
+                margin-bottom: 20px;
+                height: 120px;
+                & p {
+                  color: #7c7d7e;
+                  font-family: var(--font-family-IRANSansLight);
+                  font-size: 14px;
+                  font-weight: 100;
+                  line-height: 30px;
+                  text-align: justify;
+                }
+              }
+              .mag__content__more {
+                .mag__content__more__link {
+                  display: block;
+                  font-family: var(--font-family-IRANSansLight);
+                  font-size: 14px;
+                  font-weight: 100;
+                  line-height: 26px;
+                  margin: 0px 0px;
+                  padding: 7px 20px;
+                  box-sizing: border-box;
+                  -moz-box-sizing: border-box;
+                  -webkit-box-sizing: border-box;
+                  border: 1px solid #c8c8c8;
+                  border-radius: 8px;
+                  color: #7c7d7e;
+                  text-align: center;
+                  background-color: #ffffff;
+                  text-decoration: none;
+                  margin-left: 5px;
+                  float: right;
+                  &:hover {
+                    background-color: #ff0000;
+                    color: #fff;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
