@@ -9,7 +9,7 @@
     width: 60%;
     .intro__golestan__wrapper__center {
       width: 100%;
-      padding: 50px 80px;
+      padding: 20px 80px;
       box-sizing: border-box;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
@@ -70,22 +70,24 @@
           }
         }
         .intro__golestan__products__desc__text {
+          margin-bottom: 21px;
+          margin-top: 21px;
+          width: 80%;
           & p {
-            & p {
-              color: var(--e-global-color-text);
-              font-family: var(--font-family-IRANSansLight);
-              font-size: 16px;
-              font-weight: 100;
-              line-height: 35px;
-              & span {
-                font-variant-ligatures: normal;
-                font-variant-caps: normal;
-                font-size: medium;
-                font-style: normal;
-                font-weight: 400;
-                color: rgb(255, 0, 0);
-                white-space: normal;
-              }
+            color: var(--e-global-color-text);
+            font-family: var(--font-family-IRANSansLight);
+            font-size: 16px;
+            font-weight: 100;
+            line-height: 35px;
+            text-align: justify;
+            & span {
+              font-variant-ligatures: normal;
+              font-variant-caps: normal;
+              font-size: medium;
+              font-style: normal;
+              font-weight: 400;
+              color: rgb(255, 0, 0);
+              white-space: normal;
             }
           }
         }

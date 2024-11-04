@@ -8,7 +8,8 @@
     .lottery__wrapper__center {
       width: 100%;
       height: inherit;
-      padding: 80px 20px;
+      padding: 170px 20px;
+      padding-bottom: 30px;
       box-sizing: border-box;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;

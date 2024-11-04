@@ -1,3 +1,6 @@
 .wrapper {
   width: 100%;
 }
+.no__padding__right {
+  padding-right: unset !important;
+}
