@@ -1,0 +1,25 @@
+.footer__copy__right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  .footer__copy__right__wrapper {
+    width: 60%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    .footer__right {
+      color: #9f9f9f;
+      font-size: 15px;
+      font-family: var(--font-family-IRANSansLight);
+    }
+    .footer__design {
+      color: #7b7b7b;
+      font-size: 14px;
+      font-family: var(--font-family-IRANSansLight);
+    }
+  }
+}

@@ -1,5 +1,6 @@
 @import url("./footer-socail/footer-socail.css");
 @import url("./footer-link/footer-link.css");
+@import url("./footer-copy-right/main-footer-copy-right.css");
 footer {
   width: 100%;
 }
