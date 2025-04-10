@@ -1,0 +1,15 @@
+:root {
+  --color-neutral-000: #fff;
+  --font-family: "IRANSans", sans-serif;
+  --window-inner-height: 403px;
+  --e-nav-menu-divider-content: "";
+  --e-nav-menu-divider-style: solid;
+  --e-nav-menu-divider-width: 1px;
+  --e-nav-menu-divider-height: 30px;
+  --e-nav-menu-divider-color: #4d4d52;
+  --e-global-color-primary: #ff0000;
+  --divider-border-style: solid;
+  --divider-color: #bababa;
+  --divider-border-width: 1px;
+  --e-global-color-text: #7a7a7a;
+}

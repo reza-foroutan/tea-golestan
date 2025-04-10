@@ -1,0 +1,24 @@
+.header-logo {
+  width: 15%;
+  height: 100px;
+  .header-logo-wrapper {
+    width: 100%;
+    position: relative;
+    .header-logo-box {
+      width: 170px;
+      height: 105px;
+      position: absolute;
+      top: 50px;
+      .header-logo-box-link {
+        display: block;
+        .header-logo-box-link-box {
+          img {
+            width: 100%;
+            object-fit: cover;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}
