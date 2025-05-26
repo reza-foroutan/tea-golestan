@@ -1,0 +1,9 @@
+:root {
+  --font-family: "IRANYekanXFaNum", sans-serif;
+  --font-family-light: "IRANYekanXFaNumLight", sans-serif;
+  --color-neutral-000: #fff;
+  --e-global-color-primary: #ff0000;
+  --divider-border-style: solid;
+  --divider-color: #bababa;
+  --divider-border-width: 1px;
+}
